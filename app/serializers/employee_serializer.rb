@@ -1,4 +1,4 @@
 class EmployeeSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :name, :email, :phone, :password_digest, :appointments
 end

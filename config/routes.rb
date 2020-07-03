@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   resources :appointments
   resources :services
   resources :employees
-  resources :bussinesses
-  resources :bussiness_types
+  resources :businesses
+  resources :business_types
   resources :users
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

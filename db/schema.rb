@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2020_04_16_062112) do
   end
 
   create_table "business_types", force: :cascade do |t|
-    t.string "type"
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

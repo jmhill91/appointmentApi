@@ -1,5 +1,5 @@
-class BussinessSerializer
+class BusinessSerializer
   include FastJsonapi::ObjectSerializer
   attributes :name, :address, :phone 
-  belongs_to :bussiness_type
+  belongs_to :business_type
 end
